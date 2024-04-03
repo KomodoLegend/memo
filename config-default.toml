@@ -1,0 +1,17 @@
+# one of; trace debug info warn error fatal panic
+log_level = "info"
+
+[slack]
+enabled = true
+app_token = ""
+bot_token = ""
+
+[discord]
+enabled = true
+bot_token = ""
+
+[grafana]
+api_key = ""
+api_url = "http://localhost/api/"
+# tls_key = ""
+# tls_cert = ""
